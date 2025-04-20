@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGN UP</title>
+</head>
+<style>
+
+    body{
+        height: 100vh;
+        outline:0;
+        padding : 0;
+        display : flex;
+        justify-content: center;
+       align-items: center;
+       font-size: 20px;
+       flex-direction: column;
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: black;
+        
+    }
+    
+    
+    .container h1 {
+    position: absolute;
+    top: 15px;
+    color: blue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+    .container{
+        display : flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(255, 255, 255);
+        flex-direction : column;
+        gap : 30px;
+        width: 70%;
+        max-width: 600px;
+        height : 100%;
+        max-height: 650px;
+        border-radius: 10px;
+        position: relative;
+        
+    }
+
+    
+
+.container p {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    font-size: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+}
+
+
+    #email:hover , #username:hover , .c1:hover , .c2:hover{
+        box-shadow: 0px 0px  10px rgb(129, 121, 118);
+        border: none;
+       
+    }
+
+   
+
+    #email , #username{
+        width : 70%;
+        height : 7%;
+        border-radius : 50px;
+        border: none;
+        outline : none;
+        padding-left: 10px;
+        font-size: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: white;
+        box-shadow: 0px 5px 10px rgb(31, 34, 34);
+    }
+
+    .c1 , .c2{
+
+        width : 70%;
+        height : 7%;
+        border-radius : 50px;
+        border: none;
+        padding-left: 10px; 
+        display : flex;
+        align-items: center;
+        justify-self: center;
+        flex-direction: row;
+        gap : 100px;
+        background-color: white;
+        box-shadow: 0px 5px 10px rgb(31, 34, 34);
+        position: relative;
+    }
+
+
+    #password ,  #confirm{
+
+        width : 250px;
+        height : 50%;
+        outline : none;
+        border : none;
+        background: transparent;
+        font-size: 21px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
+
+    }
+
+
+    img{
+        position: absolute;
+        right: 12px;
+        width : 30px;
+        height : 30px;
+        cursor : pointer;
+    }
+
+    #submit{
+       
+        width : 70%;
+        height : 6%;
+        border-radius : 50px;
+        outline : none;
+        border: none;
+        font-size: 21px;
+        cursor :pointer;
+        position: absolute;
+        bottom: 50px;
+        background-color: rgb(75, 167, 161);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
+    }
+   
+</style>
+<body>
+
+
+        <div class="container">
+            
+            <h1>SIGN UP</h1>
+
+                <input type="email" id="email" placeholder="email" required>
+         
+                <input type="text" id="username" placeholder="username" required>
+ 
+            <div class="c1">
+                <input type="password" id="password" placeholder="password" required> 
+                <img id="img1" src="hide.png">
+            </div>
+
+           <div class="c2">
+            <input type="password" id="confirm" placeholder="confirm password" required>
+            <img id="img2" src="hide.png" >
+
+           </div>
+            
+           <button id="submit">Submit</button>
+           <p>Already have an account? <a href="..\login page\login.html">Login here</a></p>
+
+        </div>
+<script>
+
+    pass = document.getElementById("password");
+    com = document.getElementById("confirm");
+    img1 = document.getElementById("img1");
+    img2 = document.getElementById("img2");
+    submit = document.getElementById("submit");
+
+    img1.addEventListener("click" , function(){
+        if(pass.type == "password"){
+            img1.src = "view.png";
+            pass.type = "text";
+        }
+        else{
+            img1.src = "hide.png";
+            pass.type = "password";
+        }
+    })
+
+    img2.addEventListener("click" , function(){
+        if(com.type == "password"){
+            img2.src = "view.png";
+            com.type = "text";
+        }
+        else{
+            img2.src = "hide.png";
+            com.type = "password";
+        }
+    })
+    
+    submit.addEventListener("click" , function(){
+        if(pass.value != com.value){
+            alert("password must be same !");
+        }
+    })
+
+
+</script>
+
+    
+</body>
+</html>
