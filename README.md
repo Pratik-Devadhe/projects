@@ -1,2 +1,3 @@
-# projects
+# CSS mini 
+projects
 mini projects
