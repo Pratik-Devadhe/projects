@@ -37,7 +37,7 @@ projects/
 ## 🎮 Games
 
 ### 1. Tic-Tac-Toe
-**Folder:** `tic-tac-toe/` *(currently: `TIC TAC TOE`)*
+**Folder:** `tic-tac-toe/` 
 
 A classic two-player Tic-Tac-Toe game built with vanilla HTML, CSS, and JavaScript.
 
@@ -52,7 +52,7 @@ A classic two-player Tic-Tac-Toe game built with vanilla HTML, CSS, and JavaScri
 ---
 
 ### 2. Simon Says Game
-**Folder:** `simon-says-game/` *(currently: `simon says game`)*
+**Folder:** `simon-says-game/`
 
 A memory-based sequence game where the player must repeat an ever-growing pattern of colored button flashes.
 
@@ -69,7 +69,7 @@ A memory-based sequence game where the player must repeat an ever-growing patter
 ## 🛠️ Utility Apps
 
 ### 3. To-Do List
-**Folder:** `todo-list/` *(currently: `TO DO LIST`)*
+**Folder:** `todo-list/` 
 
 A task manager app that allows users to add and manage tasks dynamically.
 
@@ -84,7 +84,7 @@ A task manager app that allows users to add and manage tasks dynamically.
 ---
 
 ### 4. Weather App
-**Folder:** `weather-app/` *(currently: `Whether APP`)*
+**Folder:** `weather-app/`
 
 A weather application that fetches and displays live weather data based on city search.
 
@@ -94,14 +94,13 @@ A weather application that fetches and displays live weather data based on city 
 | `style.css` | Weather card and background styling |
 | `app.js` | API call to fetch weather data and render results |
 
-> ⚠️ **Note:** Folder name `Whether APP` is a typo — should be `Weather App`.
 
 **Tech:** `HTML` `CSS` `JavaScript` `Weather API`
 
 ---
 
 ### 5. Chatbot
-**Folder:** `chatbot/` *(currently: `CHATBOT`)*
+**Folder:** `chatbot/` 
 
 A simple chatbot interface that communicates via a Node.js backend.
 
@@ -117,7 +116,7 @@ A simple chatbot interface that communicates via a Node.js backend.
 ---
 
 ### 6. Password Toggle (Show/Hide)
-**Folder:** `password-toggle/` *(currently: `password hide`)*
+**Folder:** `password-toggle/` 
 
 A UI component to toggle password visibility using an eye icon.
 
@@ -135,7 +134,7 @@ A UI component to toggle password visibility using an eye icon.
 ## 🎨 UI / Clone Projects
 
 ### 7. Spotify Clone
-**Folder:** `spotify-clone/` *(currently: `spotify clone`)*
+**Folder:** `spotify-clone/` 
 
 A front-end UI clone of the Spotify web player, replicating the layout and design.
 
@@ -148,7 +147,7 @@ A front-end UI clone of the Spotify web player, replicating the layout and desig
 ---
 
 ### 8. Pet Adoption Page
-**Folder:** `pet-adoption/` *(currently: `Pet Adoption`)*
+**Folder:** `pet-adoption/` 
 
 A responsive landing page for a pet adoption service showcasing available pets.
 
@@ -163,7 +162,7 @@ A responsive landing page for a pet adoption service showcasing available pets.
 ---
 
 ### 9. Bootstrap Demo
-**Folder:** `bootstrap-demo/` *(currently: `bootstrap`)*
+**Folder:** `bootstrap-demo/` 
 
 A demo page built using Bootstrap components to showcase grid layout, cards, and navigation.
 
@@ -179,7 +178,7 @@ A demo page built using Bootstrap components to showcase grid layout, cards, and
 ## 📐 CSS Concepts
 
 ### 10. Box Model Demo
-**Folder:** `box-model/` *(currently: `Box Model`)*
+**Folder:** `box-model/` 
 
 A visual demonstration of the CSS Box Model — `margin`, `padding`, `border`, and `content`.
 
@@ -188,25 +187,6 @@ A visual demonstration of the CSS Box Model — `margin`, `padding`, `border`, a
 | `index (1).html` | Box model visualization |
 
 **Tech:** `HTML` `CSS`
-
----
-
-## 🏷️ Folder Naming — Recommended Renames
-
-Current folder names contain **spaces and inconsistent casing**, which can cause issues with URLs, terminal commands, and cross-platform compatibility.
-
-| Current Folder Name | Recommended Name | Reason |
-|---------------------|------------------|--------|
-| `TIC TAC TOE` | `tic-tac-toe` | kebab-case, no spaces |
-| `TO DO LIST` | `todo-list` | kebab-case, no spaces |
-| `Whether APP` | `weather-app` | Fix typo + kebab-case |
-| `CHATBOT` | `chatbot` | lowercase |
-| `Pet Adoption` | `pet-adoption` | kebab-case, no spaces |
-| `password hide` | `password-toggle` | descriptive + kebab-case |
-| `simon says game` | `simon-says-game` | kebab-case, no spaces |
-| `spotify clone` | `spotify-clone` | kebab-case, no spaces |
-| `bootstrap` | `bootstrap-demo` | more descriptive |
-| `Box Model` | `box-model` | kebab-case, no spaces |
 
 ---
 
